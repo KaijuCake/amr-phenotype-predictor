@@ -87,7 +87,7 @@ def main():
               file=sys.stderr)
         sys.exit(1)
 
-    pheno = pd.read_csv(PHENO, sep="\t")
+    pheno = pd.read_csv(PHENO, sep="\t", dtype={"genome_id": str})
     genome_ids = pheno["genome_id"].tolist()
     print(f"Stage 2: fetching AMR gene annotations for {len(genome_ids)} genomes...")
 
