@@ -9,7 +9,7 @@ kill it — without running the lab test?*
 
 ---
 
-## Why this matters (no biology degree required)
+## Why this matters
 
 Antibiotics are one of medicine's greatest inventions — and they are slowly
 failing. Bacteria evolve resistance, and resistant infections are harder,
@@ -105,13 +105,6 @@ every stage, including what to do when something fails), `data/README.md`
   python scripts/04_make_figures.py
   ```
 
-## What this demonstrates
-
-Working with a real public bioinformatics API at scale · turning messy
-record-level lab data into clean ML labels · interpretable feature
-engineering from biological annotations · honest model evaluation
-(baseline → strong model, cross-validated) · fully reproducible,
-checkpointed pipelines.
 
 ## Data credit
 
