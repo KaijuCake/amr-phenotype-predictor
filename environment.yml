@@ -1,0 +1,16 @@
+name: amr-predictor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - requests
+  - tqdm
+  - xgboost            # optional at runtime; script 03 skips it gracefully if missing
+  - pip
